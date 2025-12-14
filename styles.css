@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #fde8ee,
+        #fff1f5,
+        #fdeff4
+    );
+
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #000000;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+    background: linear-gradient(
+        90deg,
+        #9d174d,
+        #db2777,
+        #ec4899
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.load-btn {
+    display: block;
+    margin: 0 auto 40px;
+    padding: 14px 40px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+
+    background: linear-gradient(
+        90deg,
+        #9d174d,
+        #db2777,
+        #ec4899
+    );
+
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.load-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
+.load-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.loading-text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f0e5e5;
+    margin-bottom: 30px;
+}
+
+.hidden {
+    display:none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: #fdf2f8;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading-text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #9d174d;
+    margin-bottom: 30px;
+}
+
+.skeleton {
+    background: #f3dce3;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton-text {
+    height: 14px;
+}
+
+.skeleton-text.short {
+    width: 40%;
+}
