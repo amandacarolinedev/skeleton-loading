@@ -1,52 +1,69 @@
 # Skeleton Loading UI
 
-Projeto de interface focado em **UI/UX**, desenvolvido para melhorar a experiência do usuário durante o carregamento de dados.
+A UI/UX-focused interface project designed to improve user experience during data loading processes.
 
-O objetivo é reduzir a ansiedade do usuário e aumentar a percepção de performance utilizando **Skeleton Loading** em vez de spinners tradicionais.
-
-🔗 **Demo:** https://amandacarolinedev.github.io/skeleton-loading-ui/
+The goal is to reduce user anxiety and improve perceived performance by using Skeleton Loading instead of traditional loading spinners.
 
 ---
 
 ## 🎨 Interface (UI)
 
-O projeto aplica princípios de **User Interface Design**, incluindo:
+This project applies User Interface Design principles, including:
 
-- Paleta de cores suave e moderna (Rosé Soft)
-- Gradientes delicados para hierarquia visual
-- Tipografia clean e legível
-- Botões com feedback visual (hover, disabled)
-- Cards com espaçamento e organização consistentes
-- Skeletons estilizados para avatar, título e texto
-
----
-
-## 🧠 Experiência do Usuário (UX)
-
-Decisões de UX aplicadas no projeto:
-
-- Uso de **Skeleton Loading** para reduzir a frustração durante o carregamento
-- Feedback visual claro de estados (loading, conteúdo carregado)
-- Animações suaves para transições (fade-in)
-- Layout simples para reduzir esforço cognitivo
-- Estrutura visual previsível (avatar + conteúdo)
-
-O skeleton melhora a **percepção de velocidade**, mesmo quando os dados ainda não estão disponíveis.
+- Soft and modern color palette (Rosé Soft)
+- Subtle gradients for visual hierarchy
+- Clean and readable typography
+- Buttons with visual feedback (hover and disabled states)
+- Cards with consistent spacing and organization
+- Customized skeleton components for avatar, title, and text
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧠 User Experience (UX)
 
+UX decisions applied in this project:
+
+- Use of Skeleton Loading to reduce frustration during loading states
+- Clear visual feedback for different states (loading and loaded content)
+- Smooth animations for transitions (fade-in effects)
+- Simple layout to reduce cognitive effort
+- Predictable visual structure (avatar + content)
+
+Skeleton loading improves perceived performance, even when data is not yet available.
+
+---
+
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
 
-Sem frameworks, focando em fundamentos e boas práticas.
+No frameworks were used, focusing on fundamentals, clean code, and best practices.
 
 ---
 
-## 🚀 Como executar o projeto
+## 🚀 How to Run the Project
 
-1. Clone o repositório:
+Follow the steps below to run this project locally:
+
+### 1. Clone the repository:
+
 ```bash
 git clone https://github.com/amandacarolinedev/skeleton-loading-ui.git
+```
+
+### 2. Navigate to the project folder:
+
+```bash
+cd skeleton-loading-ui
+```
+
+### 3. Open the project:
+
+Open the `index.html` file in your browser.
+
+Or, if you are using Visual Studio Code, you can run the project with the **Live Server** extension for a better development experience.
+
+### 4. Explore the interface:
+
+Interact with the loading states and observe how the Skeleton Loading improves the user experience during data loading.
